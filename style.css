@@ -429,6 +429,7 @@ ul li:not(:last-child) {
 
   .nav-link_item > a {
     font-size: 12px;
+    text-transform: uppercase;
   }
 
   .welbex-left_head {
