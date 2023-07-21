@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    max-height: 100vh;
+    min-height: 100%;
 }
 
 .header {
@@ -362,7 +362,7 @@ font-weight: 400;
 @media (max-width:668px) {
 
     .header {
-        padding: 20px 16px;
+        padding: 20px 16px 20px 0px;
         background-color: black;
 
         }
@@ -549,4 +549,12 @@ font-weight: 400;
         margin-bottom: 0px;
     }
 
+
+   ul>.nav-link_item:not(:last-child) {
+    margin-left: 16px;
+      margin-right:0px;
 }
+
+     
+}
+
